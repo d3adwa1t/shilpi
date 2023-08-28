@@ -16,9 +16,9 @@ public class shilpi {
 		driver.get("https://bo.competentfinman.com:1467/capexweb/capexweb/");
 		Thread.sleep(3000);
 		driver.switchTo().frame("main");
-		driver.findElement(By.id("dfuserid")).sendKeys("i7");
+		driver.findElement(By.id("dfuserid")).sendKeys("***");
 		Thread.sleep(5000);
-		driver.findElement(By.name("dfpassword")).sendKeys("Sbd@160693");
+		driver.findElement(By.name("dfpassword")).sendKeys("***");
 		Thread.sleep(5000);
 		driver.findElement(By.name("B1")).click();
 		Thread.sleep(5000);
